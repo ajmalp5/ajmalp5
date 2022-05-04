@@ -1,4 +1,3 @@
-COPY
 Hi 👋 My name is Mohamed Ajmal
 ==============================
 
