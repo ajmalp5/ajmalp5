@@ -1,4 +1,4 @@
-Hi 👋 My name is Mohamed Ajmal
+Mohamed Ajmal
 ==============================
 
 Web developer
