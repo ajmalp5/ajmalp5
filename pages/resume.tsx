@@ -13,7 +13,7 @@ import FooterLink from '../components/Footer';
 
 const Resume = () => {
   const resumeData =
-    'https://www.canva.com/design/DAEEkidwA2Q/view?utm_content=DAEEkidwA2Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink';
+    '/Mohamed-Ajmal-Resume.pdf';
 
   const previewData = `${resumeData.substr(
     0,
@@ -34,7 +34,7 @@ const Resume = () => {
               .{' '}
               <b>
                 <a
-                  href={`https://drive.google.com/file/d/${process.env.NEXT_PUBLIC_RESUME_LINK}/view?usp=sharing`}
+                  href={`/Mohamed-Ajmal-Resume.pdf`}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Go to Resumé Page"
@@ -45,7 +45,7 @@ const Resume = () => {
               or{' '}
               <b>
                 <a
-                  href={`https://drive.google.com/file/d/${process.env.NEXT_PUBLIC_RESUME_LINK}/view?usp=sharing`}
+                  href={`/Mohamed-Ajmal-Resume.pdf`}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Go to Resumé Page"
@@ -58,7 +58,7 @@ const Resume = () => {
           </article>
           <br />
           <iframe
-            src={previewData}
+            src={'/Mohamed-Ajmal-Resume.pdf'}
             allowFullScreen
             width="740"
             height="780"

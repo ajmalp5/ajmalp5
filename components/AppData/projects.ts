@@ -423,33 +423,7 @@ const PROJECTS_DATA = [
     type: ['others', 'project'],
     technologies: ['Next.js', 'TypeScript', 'TailwindCSS', 'Stripe', 'Django', 'Python', 'SEO', 'PostgreSQL'],
   },
-  {
-    title: 'Tack App',
-    description: 'Time tracking application',
-    about: '2020 – 2023\nDeveloped and optimized Tack’s website and web application, including state management, API integration, SEO, and frontend deployment. Upgraded React from versions 14 to 18 and migrated to Vite bundler. Implemented real-time updates with WebSocket, Stripe payment processing, and additional features like a Chrome extension and a desktop app using Electron JS. Enhanced user engagement and satisfaction through optimized frontend performance and seamless user experience.',
-    link: 'https://tack.one',
-    imageUrl: '/projects/tackone.png',
-    type: ['others', 'project'],
-    technologies: ['React', 'SASS', 'Stripe', 'WebSocket', 'Django', 'Python', 'Hugo', 'PostgreSQL'],
-  },
-  {
-    title: 'WebWhiz',
-    description: 'AI-powered assistant for webpages',
-    about: '2023 September – 2024 March\nDeveloped new modules, integrated APIs, implemented and customized components using Chakra UI, and performed bug fixes and updates. Ensured smooth operation and relevance by resolving bugs and updating the website.',
-    link: 'https://webwhiz.ai',
-    imageUrl: '/projects/webwhiz.png',
-    type: ['open-source', 'tool'],
-    technologies: ['React.js', 'TypeScript', 'SASS', 'Stripe', 'Chakra UI', 'Python', 'SEO'],
-  },
-  {
-    title: 'Rapid.cloud',
-    description: 'Frontend Developer at Rapid.cloud',
-    about: '2023 February – 2024 March\nLed frontend tasks, managed API integration, and optimized code, resulting in a high-performance website with enhanced user experience. Guided junior team members, conducted code reviews, and implemented optimization strategies to ensure quality and efficiency.',
-    link: 'https://rapyd.cloud',
-    imageUrl: '/projects/rapyd.png',
-    type: ['others', 'project'],
-    technologies: ['React.js', 'API Integration', 'Code Optimization'],
-  },
+
   {
     title: 'Goodcode',
     description: 'Full-stack software consulting company',
@@ -460,6 +434,36 @@ const PROJECTS_DATA = [
     technologies: ['Gatsby', 'TailwindCSS', 'Lottie', 'SEO'],
   },
   {
+    title: 'Rapid.cloud',
+    description: 'Frontend Developer at Rapid.cloud',
+    about: '2023 February – 2024 March\nLed frontend tasks, managed API integration, and optimized code, resulting in a high-performance website with enhanced user experience. Guided junior team members, conducted code reviews, and implemented optimization strategies to ensure quality and efficiency.',
+    link: 'https://rapyd.cloud',
+    imageUrl: '/projects/rapyd.png',
+    type: ['others', 'project'],
+    technologies: ['React.js', 'API Integration', 'Code Optimization'],
+  },
+
+
+  {
+    title: 'Tack App',
+    description: 'Time tracking application',
+    about: '2020 – 2023\nDeveloped and optimized Tack’s website and web application, including state management, API integration, SEO, and frontend deployment. Upgraded React from versions 14 to 18 and migrated to Vite bundler. Implemented real-time updates with WebSocket, Stripe payment processing, and additional features like a Chrome extension and a desktop app using Electron JS. Enhanced user engagement and satisfaction through optimized frontend performance and seamless user experience.',
+    link: 'https://tack.one',
+    imageUrl: '/projects/tackone.png',
+    type: ['others', 'project'],
+    technologies: ['React', 'SASS', 'Stripe', 'WebSocket', 'Django', 'Python', 'Hugo', 'PostgreSQL'],
+  },
+  {
+    title: 'Purtax.co',
+    description: 'Full-stack software consulting company',
+    about: '2023 July – 2023 September\nLed development of an end-to-end website using Gatsby and TailwindCSS, including performance optimization and SEO updates. Integrated Lottie animations and implemented SSR API in Gatsby for enhanced server-side rendering and user engagement. Refactored and updated the codebase for improved maintainability. Improved SEO and engaging animations.',
+    link: 'http://puretax.co/',
+    imageUrl: '/projects/puretax.png',
+    type: ['others', 'project'],
+    technologies: ['React', 'React Router V6', 'Scss', 'Django', "Python"],
+  },
+
+  {
     title: 'LightGallery',
     description: '2023 October – 2024 March\nResponsible for website updates, including the addition of new pages, as well as updates to LightGallery. Tasks involved bug fixes within LightGallery and code improvements. Provided technical support.',
     link: 'https://lightgalleryjs.com',
@@ -468,6 +472,33 @@ const PROJECTS_DATA = [
     technologies: [],
   },
 
+  {
+    title: 'Spovio',
+    description: 'Full-stack software consulting company',
+    about: '2023 July – 2023 September\nLed development of an end-to-end website using Gatsby and TailwindCSS, including performance optimization and SEO updates. Integrated Lottie animations and implemented SSR API in Gatsby for enhanced server-side rendering and user engagement. Refactored and updated the codebase for improved maintainability. Improved SEO and engaging animations.',
+    link: 'https://app.spovio.com/login',
+    imageUrl: '/projects/spovio.png',
+    type: ['others', 'project'],
+    technologies: ['React', 'React Router V4', "Scss", "Sripe" ],
+  },
+  {
+    title: 'Carevox',
+    description: 'Reimagine Healthcare with CareVox AI.',
+    about: 'Created weebsite with Next.js, Tailwindss, Django, Python and Admin dashboard to manage website content, SEO',
+    link: 'https://carevox.ai',
+    imageUrl: '/projects/carevox.png',
+    type: ['others', 'project'],
+    technologies: ['Next.js', 'SEO', 'Django', 'Admin', 'Blog'],
+  },
+  {
+    title: 'WebWhiz',
+    description: 'AI-powered assistant for webpages',
+    about: '2023 September – 2024 March\nDeveloped new modules, integrated APIs, implemented and customized components using Chakra UI, and performed bug fixes and updates. Ensured smooth operation and relevance by resolving bugs and updating the website.',
+    link: 'https://webwhiz.ai',
+    imageUrl: '/projects/webwhiz.png',
+    type: ['open-source', 'tool'],
+    technologies: ['React.js', 'TypeScript', 'SASS', 'Stripe', 'Chakra UI', 'Python', 'SEO'],
+  },
 ];
 
 
