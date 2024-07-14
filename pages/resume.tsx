@@ -62,7 +62,7 @@ const Resume = () => {
             allowFullScreen
             width="740"
             height="780"
-            title="Adenekan Wonderful Resumé"
+            title="Mohamed Ajmal Resumé"
           />
         </PageSection>
         <br />

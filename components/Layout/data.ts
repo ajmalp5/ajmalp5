@@ -28,16 +28,16 @@ export const actions = (theme: () => void) => [
   }),
 
   createScoutSection({
-    label: 'About Adenekan Wonderful',
+    label: 'About Mohamed Ajmal',
 
     children: [
       createScoutAction({
-        label: 'About Adenekan Wonderful',
+        label: 'About Mohamed Ajmal',
         href: '/about',
         keyboardShortcut: ['a'],
       }),
       createScoutAction({
-        label: "Adenekan Wonderful's Reads",
+        label: "Mohamed Ajmal's Reads",
         href: '/about#reads',
       }),
       createScoutAction({

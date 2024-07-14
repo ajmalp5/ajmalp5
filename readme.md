@@ -1,7 +1,7 @@
 <p align="center">
 <img src="https://codewonders.dev/icons/favicon-96x96.png"/>
     
-<h1 align="center"><a href="https://codewonders.dev">Adenekan Wonderful</a></h1>
+<h1 align="center"><a href="https://codewonders.dev">Mohamed Ajmal</a></h1>
 <p align="center"> Frontend developer and Javascript engineer</p>
 
 </p>

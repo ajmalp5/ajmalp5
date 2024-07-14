@@ -4,8 +4,8 @@
   "private": false,
   "license": "MIT",
   "repository": "git://github.com/adenekan41/codewonders.git",
-  "description": "Adenekan Wonderful's Website",
-  "author": "Adenekan Wonderful <hellocodewonders@gmail.com> (https://codewonders.dev)",
+  "description": "Mohamed Ajmal's Website",
+  "author": "Mohamed Ajmal <hellocodewonders@gmail.com> (https://codewonders.dev)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
