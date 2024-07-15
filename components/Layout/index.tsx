@@ -53,7 +53,7 @@ const Layout: React.FC<PropsWithChildren<{
       <Navbar />
       <BackLay title={title}>
         <h1 aria-hidden="true">
-          {title === 'Home' ? 'CW.' : title.concat('.')}
+          {title === 'Home' ? 'AJ.' : title.concat('.')}
         </h1>
       </BackLay>
       <Cursor />
