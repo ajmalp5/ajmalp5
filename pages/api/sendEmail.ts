@@ -20,20 +20,14 @@ export default async function handler(
         user: process.env.GMAIL_USER,
         pass: process.env.GMAIL_PASS,
       },
-    //   host: "smtp.ethereal.email",
-    //   port: 587,
-    //   secure: false, // Use `true` for port 465, `false` for all other ports
-    //   auth: {
-    //     user: "ajmal@stead.global",
-    //     pass: "ajuz@860",
-    //   },
+  
     });
 
     const mailOptions = {
       from: email,
       to: process.env.GMAIL_USER,
       subject: `New message from ${name}`,
-      text: message,
+      text: `name: ${name}, email: ${email}, msg: ${message}`,
     };
 
     console.log(mailOptions, 'mailOptionss')

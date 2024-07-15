@@ -150,10 +150,7 @@ export default class MyDocument extends Document {
           />
           <meta property="og:title" content="Mohamed Ajmal" />
           <meta property="og:url" content="" />
-          <meta
-            property="og:image"
-            content=""
-          />
+          <meta property="og:image" content="" />
           <meta name="apple-mobile-web-app-title" content="Mohamed Ajmal" />
           <meta name="next-head-count" content="21" />
           <style

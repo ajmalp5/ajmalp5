@@ -1,4 +1,5 @@
 // Update your Contact component
+"use client";
 import React, { useState, ChangeEvent, FormEvent } from 'react';
 import styled from 'styled-components';
 import Layout, { PageWrapper } from '../components/Layout';
