@@ -1,125 +1,29 @@
-<p align="center">
-<img src="https://codewonders.dev/icons/favicon-96x96.png"/>
-    
-<h1 align="center"><a href="https://codewonders.dev">Mohamed Ajmal</a></h1>
-<p align="center"> Frontend developer and Javascript engineer</p>
+Web developer
+-------------
 
+* 🌍  I'm based in Bengaluru
+* ✉️  You can contact me at [ajuz860@gmail.com](mailto:ajuz860@gmail.com)
+* 🚀  I'm currently working on [Tack](http://tack.one), [Kipe](http://kipe.co/), [Stead](https://stead.global/) and [InquestAi](https://inquestai.com/)
+
+### Skills
+
+<p align="left">
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="Javascript" /></a>
+<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="Typescript" /></a>
+<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" /></a>
+<a href="https://sass-lang.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg" width="36" height="36" alt="Sass" /></a>
+<a href="https://mui.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/materialui-colored.svg" width="36" height="36" alt="Material UI" /></a>
+<a href="https://redux.js.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/redux-colored.svg" width="36" height="36" alt="Redux" /></a>
+<a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="NodeJS" /></a>
 </p>
 
-<img src="https://i.ibb.co/NS0S4XR/image.png"/>
+### Socials
 
-## Running locally in development mode
+<p align="left"> <a href="https://www.facebook.com/ajmalp5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /></a> <a href="https://www.github.com/ajmalp5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/ajmalp5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> <a href="https://www.twitter.com/MohamedAjmalP1" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a></p>
 
-To get started, just clone the repository and run `npm install && npm run dev`:
+### Badges
 
-    git clone https://github.com/iaincollins/nextjs-starter.git
-    npm install
-    npm run dev
+<b>My GitHub Stats</b>
 
-Note: If you are running on Windows run install --noptional flag (i.e.
-`npm install --no-optional`) which will skip installing fsevents.
-
-## Building and deploying in production
-
-If you wanted to run this site in production, you should install modules then
-build the site with `npm run build` and run it with `npm start`:
-
-    npm install
-    npm run build
-    npm start
-
-You should run `npm run build` again any time you make changes to the site.
-
-Note: If you are already running a webserver on port 80 (e.g. Macs usually have
-the Apache webserver running on port 80) you can still start the example in
-production mode by passing a different port as an Environment Variable when
-starting (e.g. `PORT=3000 npm start`).
-
-## Configuring
-
-If you configure a .env file (just copy
-[.env.example](https://github.com/iaincollins/nextjs-starter/blob/master/.env.example)
-over to '.env' and fill in the options) you can configure a range of options.
-
-See the
-[AUTHENTICATION.md](https://github.com/iaincollins/nextjs-starter/blob/master/AUTHENTICATION.md)
-for how to set up oAuth if you want to do that. It suggested you start with
-Twitter as it's the easiest to get working.
-
-## Deploying to the cloud with now.sh
-
-To deploy to production on [Zeit's now.sh cloud platform](https://zeit.co) you
-will need to install the `Now` desktop app on your computer. If you don't want
-to install the `Now` desktop app, you can use the following command to install
-it (either approach is fine):
-
-    sudo npm i -g --unsafe-perm now
-
-Once installed, open `now.json` and set a `name` and `alias` for your site.
-
-To deploy, just run `now` in the working directory:
-
-    npm install -g now
-    now
-
-If you configure a .env file `now` will include it when deploying if you use the
--E option to deploy:
-
-    now -E
-
-If you want to have your local `.env` file have variables for local development
-and have a different sent of variables you use in production, you can create
-additional .env files and tell `now` to use a specific file when deploying:
-
-    now -E production.env
-
-### After deploying
-
-Once you have deployed, `now` will return a URL where the site when it has been
-deployed to, you can use this to preview everything works correctly in the
-browser.
-
-If you have set an alias for the site, you can then make the site live on the
-alias you have defined using `now alias`:
-
-    now alias
-
-By default, this will point any aliases you have set in `now.json` to your site.
-
-You can configure `now` to use aliases with custom domains using the
-`now domain` and `now dns` commands.
-
----
-
-## Further reading
-
-### Database hosting
-
-If you need an instance of MongoDB in the cloud https://mlab.com/ have free and
-inexpensive options.
-
-### Secrets for Environment Variables
-
-Once you are comfortable using `.env` files for configuration and running and
-deploying your app, take a look at `now secrets` to set options in the cloud so
-you don't have to set them each time you deploy.
-
-### GitHub integration
-
-You can integrate `now` with a GitHub account to trigger automated deployments
-anytime you push to GitHub. This works great if you have secrets set up!
-
-### Now 2.0
-
-When you deploy this project you will see this message as of November 2018:
-
-    WARN! You are using an old version of the Now Platform. More: https://zeit.co/docs/v1-upgrade
-
-Now 2.0 was released in November 2018 and works differently from Now 1.0. This
-project has not been updated for Now 2.0. You may ignore this message for now.
-
-### Alternate hosting options
-
-You can host your Next.js site with any hosting provider. Although it works
-great on Now, it also works great with other providers like Heroku, Amazon Web
-Service, Google Cloud Platform, Microsoft Azure, DigitalOcean and others.
+<a href="http://www.github.com/ajmalp5"><img src="https://github-readme-streak-stats.herokuapp.com/?user=ajmalp5&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
