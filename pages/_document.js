@@ -61,7 +61,7 @@ export default class MyDocument extends Document {
           <meta name="twitter:site" content="@ajmalp5" />
           <meta
             name="twitter:image"
-            content="https://i.ibb.co/SxxqTRk/Mac-Book-Pro-16-10.png"
+            content="https://drive.google.com/file/d/1rHpQQxXR2FQxLIHhx7Z9T54uXgPjrP3D/view"
           />
           <link
             rel="preload"
