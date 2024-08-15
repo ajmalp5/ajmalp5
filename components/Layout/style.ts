@@ -218,6 +218,12 @@ export const Header = styled.header`
         font-weight: 700;
         color: white;
         font-size: 28px;
+          transition : transform 4s all;
+        :hover {
+        color: white !important;
+        transform: scale(1.2);
+      
+        }
         svg {
           path {
             fill: var(--article-color);
