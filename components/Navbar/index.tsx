@@ -27,7 +27,7 @@ const Navbar = () => {
               aria-label="Mohamed Ajmal Home"
               tabIndex={show ? -1 : undefined}
             >
-              <Logo />
+              Kydi
             </Link>
 
             <button

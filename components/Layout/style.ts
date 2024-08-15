@@ -215,6 +215,9 @@ export const Header = styled.header`
       }
 
       .navbar-brand {
+        font-weight: 700;
+        color: white;
+        font-size: 28px;
         svg {
           path {
             fill: var(--article-color);

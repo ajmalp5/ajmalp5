@@ -1,9 +1,9 @@
-Web developer
--------------
+## Web developer
 
-* 🌍  I'm based in Bengaluru
-* ✉️  You can contact me at [ajuz860@gmail.com](mailto:ajuz860@gmail.com)
-* 🚀  I'm currently working on [Tack](http://tack.one), [Kipe](http://kipe.co/), [Stead](https://stead.global/) and [InquestAi](https://inquestai.com/)
+- 🌍 I'm based in Bengaluru
+- ✉️ You can contact me at [ajuz860@gmail.com](mailto:ajuz860@gmail.com)
+- 🚀 I'm currently working on [Tack](http://tack.one), [Kipe](http://kipe.co/),
+  [Stead](https://stead.global/) and [InquestAi](https://inquestai.com/)
 
 ### Skills
 
